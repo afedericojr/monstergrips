@@ -3522,7 +3522,7 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 20rem;
+		height: auto; /* orig 20rem*/
 		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
@@ -3591,7 +3591,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+				height: auto; /*orig 14rem*/
 				padding-bottom: 4rem;
 			}
 
@@ -3605,7 +3605,6 @@ input, select, textarea {
 
 				#header .logo {
 					font-size: 1.75rem;
-					border-width: 3px !important;
 				}
 
 		}
