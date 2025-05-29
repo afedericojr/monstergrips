@@ -3593,6 +3593,7 @@ input, select, textarea {
 			#header {
 				height: auto; /*orig 14rem*/
 				padding-bottom: 4rem;
+				zoom: 90%;
 			}
 
 		}
@@ -3601,6 +3602,7 @@ input, select, textarea {
 
 			#header {
 				padding-bottom: 3rem;
+				zoom: 90%;
 			}
 
 				#header .logo {
