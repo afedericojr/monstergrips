@@ -4833,3 +4833,11 @@ footer{
     font-size: 1.2rem;
 	text-shadow: 2px 2px 2px RGB(0, 0, 0, .4);
 }
+
+/* Alteration */
+
+.image.legacyBanner img {
+	display: block;
+	margin: 0 auto 3rem auto;
+	width: 77%;
+}
